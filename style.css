@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #4caf50; */
+    padding: 20px 50px;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 60px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    padding-right: 80px;
+    gap: 40px;
+}
+
+.nav-bar li {
+    margin-left: 50px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(17, 15, 15);
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #ffdab9;
+}
+
+/* Hero Section */
+
+.hero{
+    position: relative;
+    background-image: url(./Flex\ Living\ Hero\ Img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: start;
+}
+
+.hero-text {
+    position: absolute;
+    left: 0;
+    transform: translateY(-40%);
+    padding: 60px 88px 60px 88px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: #ffffff;
+    flex: display;
+    flex-direction: column;
+}
+
+.hero-text h1{
+    font-size: 52px;
+    padding-bottom: 20px;
+    color: #181A18;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #181A18;
+}
+
+/* Future Section */
+
+.future {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 378px;
+}
+
+.future-container {
+    /* background-color: red; */
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 378px;
+}
+
+.gallery {
+    /* background-color: red; */
+    width: 640px;
+    display: flex;
+    flex-direction: row;
+    padding: 170px;
+    gap: 0px;
+}
+
+.future-content {
+    padding-top: 120px;
+    padding-left: 80px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 384px;
+    background-color: #F2F0F2;
+}
+
+.future-content h1{
+    padding-bottom: 24px;
+    font-size: 48px;
+    width: 640px;
+}
+
+.future-content p{
+    font-size: 16px;
+    width: 640px;
+}
+
+/* Features Section */
+
+.feature1 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+    /* background-color: red; */
+    height: 600px;
+}
+
+.feature1-text {
+    margin-top: 0px;
+    padding: 250px;
+}
+
+.feature1-text h1 {
+    padding-bottom: 16px;
+    font-size: 48px;
+    justify-self: center;
+}
+
+.feature1-text h1 span {
+    margin: 200px;
+}
+
+.feature1-text p {
+    font-size: 18px;
+}
+
+.feature2 {
+    height: 250px;
+}
+
+.feature2-container {
+    justify-content: center;
+    gap: 20px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+/* Card 1 */
+
+.feature2-container .card-1 {
+    padding: 40px 32px ;
+    width: 305px;
+    height: 248;
+    background-color: #E2F1E8;
+    border-radius: 30px;
+}
+
+.fa-solid fa-calendar-days{
+    font-size: 40px;
+}
+
+/* Card 2 */
+.feature2-container .card-2 {
+    padding: 40px 32px ;
+    width: 305px;
+    height: 248;
+    background-color: #E2F1E8;
+    border-radius: 30px;
+}
+
+.fa-solid fa-solid fa-couch{
+    font-size: 40px;
+}
+
+/* Card 3 */
+.feature2-container .card-3 {
+    padding: 40px 32px ;
+    width: 305px;
+    height: 248;
+    background-color: #E2F1E8;
+    border-radius: 30px;
+}
+
+.fa-solid fa-solid fa-wifi {
+    font-size: 40px;
+}
+
+/* Card 4 */
+.feature2-container .card-4 {
+    padding: 40px 32px ;
+    width: 305px;
+    height: 248;
+    background-color: #E2F1E8;
+    border-radius: 30px;
+}
+
+.fa-solid fa-solid fa-comment-dots {
+    font-size: 40px;
+}
+
+
