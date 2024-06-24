@@ -34,6 +34,7 @@ body {
 
 .nav-bar li {
     margin-left: 50px;
+    font-family: "Lato", sans-serif;
 }
 
 .nav-bar a {
@@ -47,24 +48,6 @@ body {
     color: #ffdab9;
 }
 
-.sidebar {
-    position: fixed;
-    right: 0;
-    top: 0;
-    height: 50vh;
-    width: 250px;
-    z-index: 999;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding-top: 20px;
-}
-
-.sidebar li{
-    width: 100%;
-}
 
 /* Hero Section */
 
@@ -96,12 +79,14 @@ body {
 
 .hero-text h1{
     font-size: 52px;
+    font-family: "Lato", sans-serif;
     padding-bottom: 20px;
     color: #181A18;
 }
 
 .hero-text p{
     font-size: 18px;
+    font-family: "Lato", sans-serif;
     color: #181A18;
 }
 
@@ -153,11 +138,14 @@ body {
 .future-content h1{
     padding-bottom: 24px;
     font-size: 48px;
+    font-family: "Lato", sans-serif;
+
     width: 640px;
 }
 
 .future-content p{
     font-size: 16px;
+    font-family: "Lato", sans-serif;
     width: 640px;
 }
 
@@ -181,10 +169,12 @@ body {
 .feature1-text h1 {
     padding-bottom: 16px;
     font-size: 48px;
+    font-family: "Lato", sans-serif;
     justify-self: center;
 }
 
 .feature1-text p {
+    font-family: "Lato", sans-serif;
     font-size: 18px;
 }
 
