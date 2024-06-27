@@ -13,13 +13,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #4caf50; */
     padding: 20px 50px;
 }
 
 .logo img {
     height: 50px;
-    /* padding-left: 60px; */
 }
 
 .nav-bar {
@@ -34,7 +32,7 @@ body {
 
 .nav-bar li {
     margin-left: 50px;
-    /* font-family: "Lato", sans-serif; */
+    font-family: "Lato", sans-serif;
 }
 
 .nav-bar a {
@@ -98,18 +96,13 @@ body {
     justify-content: center;
     height: 50vh;
     margin: 100px;
-    /* width: 450px; */
     height: 378px;
 }
 
 .gallery1 {
-    /* margin-top: 100px; */
-    /* margin: 0px;
-    padding: 100px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .gallery {
@@ -133,13 +126,13 @@ body {
 .future-content h1{
     padding-bottom: 24px;
     font-size: 48px;
-    /* font-family: "Lato", sans-serif; */
+    font-family: "Lato", sans-serif;
     width: 640px;
 }
 
 .future-content p{
     font-size: 16px;
-    /* font-family: "Lato", sans-serif; */
+    font-family: "Lato", sans-serif;
     width: 640px;
 }
 
@@ -148,11 +141,8 @@ body {
 .feature1 {
     display: flex;
     flex-direction: column;
-    /* background-color: red; */
     align-items: center;
     margin-bottom: 20px;
-    /* background-color: red; */
-    /* height: 600px; */
 }
 
 .feature1-text {
@@ -181,7 +171,6 @@ body {
     padding-top: 0px;
     display: flex;
     flex-direction: row;
-    /* background-color: red; */
 }
 
 /* Card 1 */
@@ -330,19 +319,17 @@ body {
     }
 
     .hero-text h1{
-        font-size: 40px;
+        font-size: 30px;
         padding-bottom: 20px;
         color: #181A18;
     }
     
     .hero-text p{
-        font-size: 14px;
+        font-size: 10px;
         color: #181A18;
     }
 
     .gallery {
-        /* background-color: red; */
-        /* margin: 100px; */
         margin-left: 0px;
         display: flex;
         flex-direction: flex;
@@ -407,6 +394,15 @@ body {
         flex-direction: column;
         gap: 20px;
     }
+
+    .image1-2 img{
+        width: 167px;
+    }
+
+    .image3-4 img{
+        width: 167px;
+    }
+
 }
 
 
